@@ -69,8 +69,12 @@ Run the program by following command:
 ```python
 python source.py -i {excel_sheet_name} -r 99.9 -f 1
 ```
-* -i: represents input excel file without extension. This is stored in input directory
+* -i: represents input excel file without extension name. This is stored in input directory. If file name is virus_1.xlsx, input virus_1
 * -f: represents inactivation rate, upto three (3) precision. Above is 99.9% 
 * -f: represents flow rate in MGD
 
 The code will run now and ouput a plot with all results and also store it in output with the name of the input excel file. 
+
+# Sample Output
+
+![Sunlight Disinfection System](output.png "Sample Output")
